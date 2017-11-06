@@ -163,5 +163,6 @@ def show_image(img):
 	cv2.waitKey(0)
 	cv2.destroyAllWindows()
 
-
-print(calculate_from_image_file('four_people.jpg'))
+# test it out if we're running this file directly (not importing)
+if __name__ == '__main__':
+	print(calculate_from_image_file('four_people.jpg'))
